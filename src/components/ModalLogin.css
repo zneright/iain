@@ -1,0 +1,112 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.modal-subtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.modal-signup {
+    color: #4a90e2;
+    cursor: pointer;
+}
+
+.modal-input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.modal-forgot {
+    color: #4a90e2;
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.modal-login-button {
+    background-color: #cdd4fb;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.modal-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    color: #aaa;
+    justify-content: center;
+}
+
+.modal-divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.google-login {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-login img {
+    width: 32px;
+    height: 32px;
+}
+
+.modal-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
